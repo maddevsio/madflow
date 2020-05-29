@@ -125,3 +125,62 @@ After that, we get to the project’s active board and see the task that was cre
 ![Снимок экрана 2020-05-29 в 22 45 24](https://user-images.githubusercontent.com/66111593/83284469-7e3e5200-a1fe-11ea-8678-87cd7af04bd4.png)
 
 Additionally: If you want to edit a template, you need to use changes in the body task of project “Templates” then when creating a task from the template, the tasks will be created and modified.
+
+# Setting up periodic tasks (Jira Automation)
+
+Jira Automation can be used in many ways and can automate nearly everything in Jira. In this document, we described the process of creating periodic tasks and assigning them to a specific person.
+
+Install the add-on in Jira. Go to the project in which we need to create periodic tasks. Go to the Project Settings > Project Automation.
+
+![Снимок экрана 2020-05-29 в 22 50 43](https://user-images.githubusercontent.com/66111593/83284931-3cfa7200-a1ff-11ea-8a74-7f39641e4aef.png)
+
+![Снимок экрана 2020-05-29 в 22 51 17](https://user-images.githubusercontent.com/66111593/83284973-4edc1500-a1ff-11ea-913c-03eebc8738bc.png)
+
+Choose Scheduled from the list, Scheduled - schedule a periodic task
+
+![Снимок экрана 2020-05-29 в 22 51 32](https://user-images.githubusercontent.com/66111593/83284978-51d70580-a1ff-11ea-8019-f4174344d2eb.png)
+
+Choose – Cron expression and set the time frame. Cron setup documentation. 
+On screenshot we set up the cron as follows – 0 0 5 25 * ? – (5 a.m., on the 25th of every month, any day of the week).
+Further select “simply run the conditions and actions without providing issues” and click on the Save button.
+
+![Снимок экрана 2020-05-29 в 22 51 51](https://user-images.githubusercontent.com/66111593/83284979-526f9c00-a1ff-11ea-8892-09be42df1bef.png)
+
+We need to choose the next component, which will perform according to the schedule configured above. Choose New action.
+
+![Снимок экрана 2020-05-29 в 22 52 25](https://user-images.githubusercontent.com/66111593/83284982-53083280-a1ff-11ea-9379-9f9dbbf18e1c.png)
+
+Our next condition will be creation of the task – Create issue.
+
+![Снимок экрана 2020-05-29 в 22 52 45](https://user-images.githubusercontent.com/66111593/83284986-53a0c900-a1ff-11ea-8f23-f3901d85a630.png)
+
+In creation fields we enter the following data:
+* Project
+* Issue type
+* Summary
+
+Other fields like Assignee, Components, Due date etc., we add from the list “Choose fields to set…”
+Fill in all the necessary fields and click on Save.
+
+![Снимок экрана 2020-05-29 в 22 57 54](https://user-images.githubusercontent.com/66111593/83285705-826b6f00-a200-11ea-9b3b-92f8273518a9.png)
+
+Our automated task is created! All we need to do now is to indicate it’s name in Name your automation field and click on Turn it on.
+
+![Снимок экрана 2020-05-29 в 22 58 45](https://user-images.githubusercontent.com/66111593/83285711-84cdc900-a200-11ea-91db-a5ebbd84f505.png)
+
+Further we return to the automation list and see the created Rule with New tag.
+
+![Снимок экрана 2020-05-29 в 22 59 00](https://user-images.githubusercontent.com/66111593/83285714-85fef600-a200-11ea-836e-165a94638e6e.png)
+
+We've just successfully created the simplest type of automation in Jira - a periodic task.
+
+## Additionally
+
+When creating a monthly task, you can set a value? by which the name of the month will be automatically set in the Summary task.
+It is necessary to add ‘ ‘ ‘{{now.format(“MMMM”)}} ‘ ‘ ‘ in the task’s title:
+
+![Снимок экрана 2020-05-29 в 22 59 19](https://user-images.githubusercontent.com/66111593/83285716-86978c80-a200-11ea-8a15-1365b7ab5bf1.png)
+
+The created task will look the following way.
+
+![Снимок экрана 2020-05-29 в 22 59 37](https://user-images.githubusercontent.com/66111593/83285717-86978c80-a200-11ea-8aea-1dee904ccc9b.png)
