@@ -7,3 +7,12 @@ Mad Flow is an internal project for company's process automation.
 
 ## Project advantages
 Mad Flow helps PMs, HRs and other employees of the Mad Devs admin staff to have up-to-date information on the tasks assigned to them and to close tasks on time. This project will help to solve problems in the early stages and guide PMs to solve these problems.
+
+# Setting up a Workflow
+
+Workflow regulates the movement of tasks in projects.
+
+Workflow can be changed according to the ongoing project’s processes.
+
+To get access to the Workflow's settings, you need to log in as a Jira Administrator and click on Project Settings (in the project’s window in which you're going to change the Workflow).
+
