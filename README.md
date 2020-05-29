@@ -70,6 +70,37 @@ Click on Create and our first template is done!
 Now we need to set extra settings in our project “Templates” right before using it.
 Go to “Templates” Project Settings, click on Issue Templates.
 
+![Снимок экрана 2020-05-29 в 22 33 03](https://user-images.githubusercontent.com/66111593/83283517-281cdf00-a1fd-11ea-868e-a08c519a4764.png)
 
+![Снимок экрана 2020-05-29 в 22 33 31](https://user-images.githubusercontent.com/66111593/83283564-379c2800-a1fd-11ea-880e-95745a264842.png)
+
+There are three types of add-on settings: Manage Templates, Variables, Scopes.
+In Manage Templates you can see every created issue-templates.
+
+![Снимок экрана 2020-05-29 в 22 34 22](https://user-images.githubusercontent.com/66111593/83283614-50a4d900-a1fd-11ea-8f8b-4451b9c037b2.png)
+
+In order to enable the display of the desired template, click on the pencil in the column Actions.
+
+![Снимок экрана 2020-05-29 в 22 34 47](https://user-images.githubusercontent.com/66111593/83283654-5ef2f500-a1fd-11ea-8e16-681a62171bf8.png)
+
+Activate all switches: Make template selectable and Copy Subtasks (if it’s necessary copy subtasks).
+In “Availability” settings choose projects where this template must be displayed.
+
+![Снимок экрана 2020-05-29 в 22 35 15](https://user-images.githubusercontent.com/66111593/83283669-661a0300-a1fd-11ea-8d3b-8569ee5eb011.png)
+
+Click on Configure.
+
+In “Scope” settings (list of the number of fields inherited when creating a task from a template) we need to add necessary fields “DEFAULT_SCOPE”s.
+
+![Снимок экрана 2020-05-29 в 22 36 01](https://user-images.githubusercontent.com/66111593/83283718-76ca7900-a1fd-11ea-88fc-8f361848ffde.png)
+
+Click on Configure.
+
+In “Scope” settings (list of the number of fields inherited when creating a task from a template) we need to add necessary fields “DEFAULT_SCOPE”s.
+
+![Снимок экрана 2020-05-29 в 22 37 57](https://user-images.githubusercontent.com/66111593/83283751-83e76800-a1fd-11ea-972d-08412d9421aa.png)
+
+Congratulations we have just ended setting up all parameters and now we can begin to use our Issue Templates!
+Go to a project in which we want to create a task from a template and in the side menu click on Create from Template tab. 
 
 
