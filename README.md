@@ -184,3 +184,38 @@ It is necessary to add ‘ ‘ ‘{{now.format(“MMMM”)}} ‘ ‘ ‘ in the 
 The created task will look the following way.
 
 ![Снимок экрана 2020-05-29 в 22 59 37](https://user-images.githubusercontent.com/66111593/83285717-86978c80-a200-11ea-8aea-1dee904ccc9b.png)
+
+# Integrating Issue Checklists to the tasks created from Issue Templates
+
+Plugin Issue Templates for Jira doesn’t allow to add checklists from Jira Checklists plugin. The problem was solved with the help of Jira Automation rules. 
+
+Setup Instructions:
+* Install extension – Issue Checklists Free 
+* We should already have installed and configured – Issue Templates for Jira
+* We should have created task-template with ready checklists in the project Templates (Issue Templates plugin)
+
+![Снимок экрана 2020-05-29 в 23 08 39](https://user-images.githubusercontent.com/66111593/83286350-8f3c9280-a201-11ea-8a6f-ebbd5a1179e7.png)
+
+In our next step, we need to go to the project in which we are going to use the task with checklists created from a template. Go to Project Automation in project settings.
+
+![Снимок экрана 2020-05-29 в 23 08 02](https://user-images.githubusercontent.com/66111593/83286353-906dbf80-a201-11ea-9cd6-652f7b6ee560.png)
+
+Now we need to configure the Automation Rule – a condition according to which, when creating a new task in a project,  by a certain label a checklist will be added to it. Set Automation Rule as follows:
+
+![Снимок экрана 2020-05-29 в 23 07 22](https://user-images.githubusercontent.com/66111593/83286355-91065600-a201-11ea-9a56-cd4d3b3020a8.png)
+
+Trigger - Issue created
+
+Condition - JQL definition is equal to the project’s title + task label project = PM and labels = project_start and labels = preparation)
+
+Action - Edit issue for value Checklist Content YAML
+
+In the Checklist Content YAML field, insert the created checklist from the parent task with the checklist.
+
+![Снимок экрана 2020-05-29 в 23 07 04](https://user-images.githubusercontent.com/66111593/83286357-919eec80-a201-11ea-8153-e15004867d2c.png)
+
+Next, save and turn on Automation Rule
+
+![Снимок экрана 2020-05-29 в 23 06 49](https://user-images.githubusercontent.com/66111593/83286358-919eec80-a201-11ea-9c13-8393e10b20b0.png)
+
+Now when creating a task from the issue template Create from Template we will have a task created in a selected project + checklists attached to it. 
