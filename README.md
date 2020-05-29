@@ -103,4 +103,25 @@ In “Scope” settings (list of the number of fields inherited when creating a 
 Congratulations we have just ended setting up all parameters and now we can begin to use our Issue Templates!
 Go to a project in which we want to create a task from a template and in the side menu click on Create from Template tab. 
 
+![Снимок экрана 2020-05-29 в 22 43 57](https://user-images.githubusercontent.com/66111593/83284157-26075000-a1fe-11ea-850e-d8a93f72fa7f.png)
 
+№3 On the page that appears, enter in the fields:
+* Project 
+* Issue type 
+* Template (Сhoose from the list of available templates for a project)
+
+![Снимок экрана 2020-05-29 в 22 44 19](https://user-images.githubusercontent.com/66111593/83284321-551dc180-a1fe-11ea-996c-af47a90812e4.png)
+
+Click on Next and go to “the body” of the template task.
+
+![Снимок экрана 2020-05-29 в 22 44 47](https://user-images.githubusercontent.com/66111593/83284357-636bdd80-a1fe-11ea-9fab-32eabf16b872.png)
+
+Click on “Create” and we get to the window of auto-generation of tasks and subtasks from the template.
+
+![Снимок экрана 2020-05-29 в 22 45 06](https://user-images.githubusercontent.com/66111593/83284388-72529000-a1fe-11ea-9892-454cd5fc0338.png)
+
+After that, we get to the project’s active board and see the task that was created from the template!
+
+![Снимок экрана 2020-05-29 в 22 45 24](https://user-images.githubusercontent.com/66111593/83284469-7e3e5200-a1fe-11ea-8678-87cd7af04bd4.png)
+
+Additionally: If you want to edit a template, you need to use changes in the body task of project “Templates” then when creating a task from the template, the tasks will be created and modified.
