@@ -49,5 +49,27 @@ Hooray! Add-on is installed.
 Let’s set up the add-on.
 First of all we need to create a separate project where only templates will be placed. Let’s name it “Templates”.
 
+![Снимок экрана 2020-05-29 в 22 26 52](https://user-images.githubusercontent.com/66111593/83282778-e9d2f000-a1fb-11ea-8069-682f71be7edd.png)
+
+Then return to the add-on page and click on “Create Template (Basic)” button.
+
+![Снимок экрана 2020-05-29 в 22 27 28](https://user-images.githubusercontent.com/66111593/83282801-f48d8500-a1fb-11ea-959a-587f6fe309b4.png)
+
+Choose created by us project “Templates” as Template Repository.
+
+![Снимок экрана 2020-05-29 в 22 27 47](https://user-images.githubusercontent.com/66111593/83282869-0f5ff980-a1fc-11ea-9518-5d6e2e59f7af.png)
+
+Then the program creates a body of an issue template in the “Templates” project.
+
+Here we need to write the task which we want to automate by creating from templates. Write a title or description, choose task type and fill in all necessary parameters.
+
+![Снимок экрана 2020-05-29 в 22 29 13](https://user-images.githubusercontent.com/66111593/83282900-1dae1580-a1fc-11ea-98f1-5fe98cdcf5a9.png)
+
+Click on Create and our first template is done! 
+
+Now we need to set extra settings in our project “Templates” right before using it.
+Go to “Templates” Project Settings, click on Issue Templates.
+
+
 
 
