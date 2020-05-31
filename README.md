@@ -18,6 +18,47 @@ To get access to the Workflow's settings, you need to log in as a Jira Administr
 
 ![Снимок экрана 2020-05-29 в 18 51 26](https://user-images.githubusercontent.com/66111593/83281079-60222300-a1f9-11ea-8573-1ce94f88e17d.png)
 
+Next step: click on Workflows
+
+![Снимок экрана 2020-05-31 в 21 57 25](https://user-images.githubusercontent.com/66111593/83356741-dc4b7080-a389-11ea-8bd8-08c7d23b3f1d.png)
+
+You’ll see a window with the current workflow of our project. There are 4 available actions:
+
+* Add a new workflow (add one of the classic workflows from Jira’s schemes or add another one from the marketplace).
+
+* Change Workflow’s scheme (If you have more than one preset Workflow schemes in your base).
+
+* View the current workflow as a text or diagram.
+
+* Edit current workflow.
+
+![Снимок экрана 2020-05-31 в 21 57 45](https://user-images.githubusercontent.com/66111593/83356744-deadca80-a389-11ea-9b55-4257c02aa2e1.png)
+
+Let’s move on to the editing. Press on the pencil icon. Jira will send you to the Workflow’s edit page.
+
+On this page we can see the following:
+
+* Workflow’s activation buttons (Publish changes; delete changes; View original).
+
+* Workflow’s name editing field.
+
+*  A button that can show how many projects are operating using the scheme.
+
+* Switch the scheme’s form (diagram; text).
+
+* Workflow’s export button.
+
+* A field for directly configuring workflow elements.
+
+![Снимок экрана 2020-05-31 в 21 58 00](https://user-images.githubusercontent.com/66111593/83356745-dfdef780-a389-11ea-90e2-7404fe150fd9.png)
+
+To change Workflow under the needs of a specific project, we recommend you to familiarize with Jira Atlassian’s oﬃcial documentations:
+
+Working with workflows - https://confluence.atlassian.com/adminjiracloud/working-with-workflows-776636540.html
+
+Advanced workflow configuration - https://confluence.atlassian.com/adminjiracloud/advanced-workflow-configuration776636620.html
+
+
 # Setting up automatic tasks using Issue Templates for Jira
 
 Add-on link: https://marketplace.atlassian.com/apps/1211044/issue-templates-for-jira?hosting=cloud&tab=overview
