@@ -8,9 +8,13 @@ Mad Flow is an internal project for company's process automation.
 ## Project advantages
 Mad Flow helps PMs, HRs and other employees of the Mad Devs admin staff to have up-to-date information on the tasks assigned to them and to close tasks on time. This project will help to solve problems in the early stages and guide PMs to solve these problems.
 
-## Setting up a Workflow
+## Project Settings
 
-Workflow regulates the movement of tasks in projects.
+<details>
+  <summary>1. Setting up a Workflow</summary>
+  
+  ### Setting up a Workflow
+  Workflow regulates the movement of tasks in projects.
 
 Workflow can be changed according to the ongoing project’s processes.
 
@@ -57,15 +61,18 @@ To change Workflow under the needs of a specific project, we recommend you to fa
 Working with workflows - https://confluence.atlassian.com/adminjiracloud/working-with-workflows-776636540.html
 
 Advanced workflow configuration - https://confluence.atlassian.com/adminjiracloud/advanced-workflow-configuration776636620.html
+</details>
 
-
-# Setting up automatic tasks using Issue Templates for Jira
-
-Add-on link: https://marketplace.atlassian.com/apps/1211044/issue-templates-for-jira?hosting=cloud&tab=overview
-Official documentation link: https://deviniti.com/support/addon/cloud/issue-templates/latest/getting-started/
-
-We have a need to periodically create tasks with similar content to any project. To avoid manually creating tasks, again and again, we use special add-ons for Jira. Issue Template enables us to create tasks from a template in a few clicks. 
-So, to install add-on we need to go to Atlassian Marketplace, Jira Settings > Apps > Find new apps.
+<details>
+  <summary>2. Setting up automatic tasks using Issue Templates for Jira</summary>
+  
+  ### Setting up automatic tasks using Issue Templates for Jira
+  
+  Add-on link: https://marketplace.atlassian.com/apps/1211044/issue-templates-for-jira?hosting=cloud&tab=overview
+  Official documentation link: https://deviniti.com/support/addon/cloud/issue-templates/latest/getting-started/
+  
+  We have a need to periodically create tasks with similar content to any project. To avoid manually creating tasks, again and again, we use special add-ons for Jira. Issue Template enables us to create tasks from a template in a few clicks.
+  So, to install add-on we need to go to Atlassian Marketplace, Jira Settings > Apps > Find new apps.
 
 ![Снимок экрана 2020-05-29 в 22 19 21](https://user-images.githubusercontent.com/66111593/83281910-a035d580-a1fa-11ea-8036-eeab567740ce.png)
 
@@ -166,10 +173,14 @@ After that, we get to the project’s active board and see the task that was cre
 ![Снимок экрана 2020-05-29 в 22 45 24](https://user-images.githubusercontent.com/66111593/83284469-7e3e5200-a1fe-11ea-8678-87cd7af04bd4.png)
 
 Additionally: If you want to edit a template, you need to use changes in the body task of project “Templates” then when creating a task from the template, the tasks will be created and modified.
+</details>
 
-# Setting up periodic tasks (Jira Automation)
-
-Jira Automation can be used in many ways and can automate nearly everything in Jira. In this document, we described the process of creating periodic tasks and assigning them to a specific person.
+<details>
+  <summary>3. Setting up periodic tasks (Jira Automation)</summary>
+  
+  ### Setting up periodic tasks (Jira Automation)
+  
+  Jira Automation can be used in many ways and can automate nearly everything in Jira. In this document, we described the process of creating periodic tasks and assigning them to a specific person.
 
 Install the add-on in Jira. Go to the project in which we need to create periodic tasks. Go to the Project Settings > Project Automation.
 
@@ -215,7 +226,7 @@ Further we return to the automation list and see the created Rule with New tag.
 
 We've just successfully created the simplest type of automation in Jira - a periodic task.
 
-## Additionally
+### Additionally
 
 When creating a monthly task, you can set a value? by which the name of the month will be automatically set in the Summary task.
 It is necessary to add ‘ ‘ ‘{{now.format(“MMMM”)}} ‘ ‘ ‘ in the task’s title:
@@ -225,10 +236,14 @@ It is necessary to add ‘ ‘ ‘{{now.format(“MMMM”)}} ‘ ‘ ‘ in the 
 The created task will look the following way.
 
 ![Снимок экрана 2020-05-29 в 22 59 37](https://user-images.githubusercontent.com/66111593/83285717-86978c80-a200-11ea-8aea-1dee904ccc9b.png)
+</details>
 
-# Integrating Issue Checklists to the tasks created from Issue Templates
-
-Plugin Issue Templates for Jira doesn’t allow to add checklists from Jira Checklists plugin. The problem was solved with the help of Jira Automation rules. 
+<details>
+  <summary>4. Integrating Issue Checklists to the tasks created from Issue Templates</summary>
+  
+  ### Integrating Issue Checklists to the tasks created from Issue Templates
+  
+  Plugin Issue Templates for Jira doesn’t allow to add checklists from Jira Checklists plugin. The problem was solved with the help of Jira Automation rules. 
 
 Setup Instructions:
 * Install extension – Issue Checklists Free 
@@ -259,4 +274,5 @@ Next, save and turn on Automation Rule
 
 ![Снимок экрана 2020-05-29 в 23 06 49](https://user-images.githubusercontent.com/66111593/83286358-919eec80-a201-11ea-9c13-8393e10b20b0.png)
 
-Now when creating a task from the issue template Create from Template we will have a task created in a selected project + checklists attached to it. 
+Now when creating a task from the issue template Create from Template we will have a task created in a selected project + checklists attached to it.
+</details>
