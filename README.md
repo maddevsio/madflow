@@ -276,3 +276,7 @@ Next, save and turn on Automation Rule
 
 Now when creating a task from the issue template Create from Template we will have a task created in a selected project + checklists attached to it.
 </details>
+
+<br/> 
+
+[![Read article on Medium](https://user-images.githubusercontent.com/51479167/84348173-1f051800-abd6-11ea-8f4b-dd375da8fbb3.png)](https://blog.maddevs.io/how-to-automate-jira-mad-devs-experience-50c7836eec65?source=false---------0)
