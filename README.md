@@ -254,15 +254,15 @@ Setup Instructions:
 * We should already have installed and configured – Issue Templates for Jira
 * We should have created task-template with ready checklists in the project Templates (Issue Templates plugin)
 
-![Снимок экрана 2020-05-29 в 23 08 39](https://user-images.githubusercontent.com/66111593/83286350-8f3c9280-a201-11ea-8a6f-ebbd5a1179e7.png)
+![Снимок экрана 2020-05-29 в 23 08 39](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-03-27%20at%2011.44.04.png)
 
 In our next step, we need to go to the project in which we are going to use the task with checklists created from a template. Go to Project Automation in project settings.
 
-![Снимок экрана 2020-05-29 в 23 08 02](https://user-images.githubusercontent.com/66111593/83286353-906dbf80-a201-11ea-9cd6-652f7b6ee560.png)
+![Снимок экрана 2020-05-29 в 23 08 02](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-03-27%20at%2011.46.09.png)
 
 Now we need to configure the Automation Rule – a condition according to which, when creating a new task in a project,  by a certain label a checklist will be added to it. Set Automation Rule as follows:
 
-![Снимок экрана 2020-05-29 в 23 07 22](https://user-images.githubusercontent.com/66111593/83286355-91065600-a201-11ea-9a56-cd4d3b3020a8.png)
+![Снимок экрана 2020-05-29 в 23 07 22](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-03-27%20at%2011.47.32.png)
 
 Trigger - Issue created
 
@@ -272,15 +272,15 @@ Action - Edit issue for value Checklist Content YAML
 
 In the Checklist Content YAML field, insert the created checklist from the parent task with the checklist.
 
-![Снимок экрана 2020-05-29 в 23 07 04](https://user-images.githubusercontent.com/66111593/83286357-919eec80-a201-11ea-8153-e15004867d2c.png)
+![Снимок экрана 2020-05-29 в 23 07 04](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-03-27%20at%2011.26.20.png)
 
 Next, save and turn on Automation Rule
 
-![Снимок экрана 2020-05-29 в 23 06 49](https://user-images.githubusercontent.com/66111593/83286358-919eec80-a201-11ea-9c13-8393e10b20b0.png)
+![Снимок экрана 2020-05-29 в 23 06 49](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-03-27%20at%2011.48.49.png)
 
 Now when creating a task from the issue template Create from Template we will have a task created in a selected project + checklists attached to it.
 </details>
 
 <br/> 
 
-[![Read article on Medium](https://user-images.githubusercontent.com/51479167/84348173-1f051800-abd6-11ea-8f4b-dd375da8fbb3.png)](https://blog.maddevs.io/how-to-automate-jira-mad-devs-experience-50c7836eec65?source=false---------0)
+[![Read article on Medium](https://github.com/maddevsio/madflow/blob/master/pics/Read%20article%20on%20Medium%20(1).png)](https://blog.maddevs.io/how-to-automate-jira-mad-devs-experience-50c7836eec65?source=friends_link&sk=e3fb879ddacf5df9599251a94f99b2d1)
