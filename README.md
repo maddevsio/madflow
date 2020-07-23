@@ -20,11 +20,11 @@ Workflow can be changed according to the ongoing project’s processes.
 
 To get access to the Workflow's settings, you need to log in as a Jira Administrator and click on Project Settings (in the project’s window in which you're going to change the Workflow).
 
-![Снимок экрана 2020-05-29 в 18 51 26](https://user-images.githubusercontent.com/66111593/83281079-60222300-a1f9-11ea-8573-1ce94f88e17d.png)
+![Снимок экрана 2020-05-29 в 18 51 26](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-14%20at%2015.34.08.png)
 
 Next step: click on Workflows
 
-![Снимок экрана 2020-05-31 в 21 57 25](https://user-images.githubusercontent.com/66111593/83356741-dc4b7080-a389-11ea-8bd8-08c7d23b3f1d.png)
+![Снимок экрана 2020-05-31 в 21 57 25](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-14%20at%2015.39.20.png)
 
 You’ll see a window with the current workflow of our project. There are 4 available actions:
 
@@ -36,7 +36,7 @@ You’ll see a window with the current workflow of our project. There are 4 avai
 
 * Edit current workflow.
 
-![Снимок экрана 2020-05-31 в 21 57 45](https://user-images.githubusercontent.com/66111593/83356744-deadca80-a389-11ea-9b55-4257c02aa2e1.png)
+![Снимок экрана 2020-05-31 в 21 57 45](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-14%20at%2015.41.49.png)
 
 Let’s move on to the editing. Press on the pencil icon. Jira will send you to the Workflow’s edit page.
 
@@ -54,7 +54,7 @@ On this page we can see the following:
 
 * A field for directly configuring workflow elements.
 
-![Снимок экрана 2020-05-31 в 21 58 00](https://user-images.githubusercontent.com/66111593/83356745-dfdef780-a389-11ea-90e2-7404fe150fd9.png)
+![Снимок экрана 2020-05-31 в 21 58 00](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-14%20at%2016.04.40.png)
 
 To change Workflow under the needs of a specific project, we recommend you to familiarize with Jira Atlassian’s oﬃcial documentations:
 
