@@ -74,103 +74,105 @@ Advanced workflow configuration - https://confluence.atlassian.com/adminjiraclou
   We have a need to periodically create tasks with similar content to any project. To avoid manually creating tasks, again and again, we use special add-ons for Jira. Issue Template enables us to create tasks from a template in a few clicks.
   So, to install add-on we need to go to Atlassian Marketplace, Jira Settings > Apps > Find new apps.
 
-![Снимок экрана 2020-05-29 в 22 19 21](https://user-images.githubusercontent.com/66111593/83281910-a035d580-a1fa-11ea-8036-eeab567740ce.png)
+![Снимок экрана 2020-05-29 в 22 19 21](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2014.51.55.png)
 
-![Снимок экрана 2020-05-29 в 22 19 48](https://user-images.githubusercontent.com/66111593/83281941-af1c8800-a1fa-11ea-8e6e-9fe6e25dcea8.png)
+![Снимок экрана 2020-05-29 в 22 19 21](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2014.52.33.png)
+
+![Снимок экрана 2020-05-29 в 22 19 48](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2014.52.59.png)
 
 Click on extension. You’ll see a pop up window, where you need to click on View app details.
 
-![Снимок экрана 2020-05-29 в 22 20 08](https://user-images.githubusercontent.com/66111593/83281963-b6dc2c80-a1fa-11ea-88b6-979a536c650b.png)
+![Снимок экрана 2020-05-29 в 22 20 08](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2015.10.18.png)
 
 Then go to the expansion page in the Atlassian Marketplace. Here, click on Try it free or Buy it now. Note: Since the extension is paid, check its functionality first. You can use a 30-day free trial.
 
-![Снимок экрана 2020-05-29 в 22 22 44](https://user-images.githubusercontent.com/66111593/83282286-2b16d000-a1fb-11ea-9607-fdb6bbb7dc46.png)
+![Снимок экрана 2020-05-29 в 22 22 44](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2015.34.04.png)
 
 Choose Cloud Jira from the list.
 
-![Снимок экрана 2020-05-29 в 22 23 15](https://user-images.githubusercontent.com/66111593/83282335-3f5acd00-a1fb-11ea-906e-7844cedebaef.png)
+![Снимок экрана 2020-05-29 в 22 23 15](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2015.34.40.png)
 
 Hooray! Add-on is installed.
 
-![Снимок экрана 2020-05-29 в 22 23 56](https://user-images.githubusercontent.com/66111593/83282389-53063380-a1fb-11ea-8289-96e1e46d7ecc.png)
+![Снимок экрана 2020-05-29 в 22 23 56](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-17%20at%2015.34.56.png)
 
 Let’s set up the add-on.
 First of all we need to create a separate project where only templates will be placed. Let’s name it “Templates”.
 
-![Снимок экрана 2020-05-29 в 22 26 52](https://user-images.githubusercontent.com/66111593/83282778-e9d2f000-a1fb-11ea-8069-682f71be7edd.png)
+![Снимок экрана 2020-05-29 в 22 26 52](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.10.50.png)
 
 Then return to the add-on page and click on “Create Template (Basic)” button.
 
-![Снимок экрана 2020-05-29 в 22 27 28](https://user-images.githubusercontent.com/66111593/83282801-f48d8500-a1fb-11ea-959a-587f6fe309b4.png)
+![Снимок экрана 2020-05-29 в 22 27 28](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.20.13.png)
 
 Choose created by us project “Templates” as Template Repository.
 
-![Снимок экрана 2020-05-29 в 22 27 47](https://user-images.githubusercontent.com/66111593/83282869-0f5ff980-a1fc-11ea-9518-5d6e2e59f7af.png)
+![Снимок экрана 2020-05-29 в 22 27 47](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.22.33.png)
 
 Then the program creates a body of an issue template in the “Templates” project.
 
 Here we need to write the task which we want to automate by creating from templates. Write a title or description, choose task type and fill in all necessary parameters.
 
-![Снимок экрана 2020-05-29 в 22 29 13](https://user-images.githubusercontent.com/66111593/83282900-1dae1580-a1fc-11ea-98f1-5fe98cdcf5a9.png)
+![Снимок экрана 2020-05-29 в 22 29 13](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.22.53.png)
 
 Click on Create and our first template is done! 
 
 Now we need to set extra settings in our project “Templates” right before using it.
 Go to “Templates” Project Settings, click on Issue Templates.
 
-![Снимок экрана 2020-05-29 в 22 33 03](https://user-images.githubusercontent.com/66111593/83283517-281cdf00-a1fd-11ea-868e-a08c519a4764.png)
+![Снимок экрана 2020-05-29 в 22 33 03](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.27.06.png)
 
-![Снимок экрана 2020-05-29 в 22 33 31](https://user-images.githubusercontent.com/66111593/83283564-379c2800-a1fd-11ea-880e-95745a264842.png)
+![Снимок экрана 2020-05-29 в 22 33 31](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.45.44.png)
 
 There are three types of add-on settings: Manage Templates, Variables, Scopes.
 In Manage Templates you can see every created issue-templates.
 
-![Снимок экрана 2020-05-29 в 22 34 22](https://user-images.githubusercontent.com/66111593/83283614-50a4d900-a1fd-11ea-8f8b-4451b9c037b2.png)
+![Снимок экрана 2020-05-29 в 22 34 22](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2014.46.40.png)
 
 In order to enable the display of the desired template, click on the pencil in the column Actions.
 
-![Снимок экрана 2020-05-29 в 22 34 47](https://user-images.githubusercontent.com/66111593/83283654-5ef2f500-a1fd-11ea-8e16-681a62171bf8.png)
+![Снимок экрана 2020-05-29 в 22 34 47](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.05.47.png)
 
 Activate all switches: Make template selectable and Copy Subtasks (if it’s necessary copy subtasks).
 In “Availability” settings choose projects where this template must be displayed.
 
-![Снимок экрана 2020-05-29 в 22 35 15](https://user-images.githubusercontent.com/66111593/83283669-661a0300-a1fd-11ea-8d3b-8569ee5eb011.png)
+![Снимок экрана 2020-05-29 в 22 35 15](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.08.51.png)
 
 Click on Configure.
 
 In “Scope” settings (list of the number of fields inherited when creating a task from a template) we need to add necessary fields “DEFAULT_SCOPE”s.
 
-![Снимок экрана 2020-05-29 в 22 36 01](https://user-images.githubusercontent.com/66111593/83283718-76ca7900-a1fd-11ea-88fc-8f361848ffde.png)
+![Снимок экрана 2020-05-29 в 22 36 01](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.09.05.png)
 
 Click on Configure.
 
 In “Scope” settings (list of the number of fields inherited when creating a task from a template) we need to add necessary fields “DEFAULT_SCOPE”s.
 
-![Снимок экрана 2020-05-29 в 22 37 57](https://user-images.githubusercontent.com/66111593/83283751-83e76800-a1fd-11ea-972d-08412d9421aa.png)
+![Снимок экрана 2020-05-29 в 22 37 57](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.27.03.png)
 
 Congratulations we have just ended setting up all parameters and now we can begin to use our Issue Templates!
 Go to a project in which we want to create a task from a template and in the side menu click on Create from Template tab. 
 
-![Снимок экрана 2020-05-29 в 22 43 57](https://user-images.githubusercontent.com/66111593/83284157-26075000-a1fe-11ea-850e-d8a93f72fa7f.png)
+![Снимок экрана 2020-05-29 в 22 43 57](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.35.06.png)
 
 №3 On the page that appears, enter in the fields:
 * Project 
 * Issue type 
 * Template (Сhoose from the list of available templates for a project)
 
-![Снимок экрана 2020-05-29 в 22 44 19](https://user-images.githubusercontent.com/66111593/83284321-551dc180-a1fe-11ea-996c-af47a90812e4.png)
+![Снимок экрана 2020-05-29 в 22 44 19](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.38.25.png)
 
 Click on Next and go to “the body” of the template task.
 
-![Снимок экрана 2020-05-29 в 22 44 47](https://user-images.githubusercontent.com/66111593/83284357-636bdd80-a1fe-11ea-9fab-32eabf16b872.png)
+![Снимок экрана 2020-05-29 в 22 44 47](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.41.15.png)
 
 Click on “Create” and we get to the window of auto-generation of tasks and subtasks from the template.
 
-![Снимок экрана 2020-05-29 в 22 45 06](https://user-images.githubusercontent.com/66111593/83284388-72529000-a1fe-11ea-9892-454cd5fc0338.png)
+![Снимок экрана 2020-05-29 в 22 45 06](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.41.27.png)
 
 After that, we get to the project’s active board and see the task that was created from the template!
 
-![Снимок экрана 2020-05-29 в 22 45 24](https://user-images.githubusercontent.com/66111593/83284469-7e3e5200-a1fe-11ea-8678-87cd7af04bd4.png)
+![Снимок экрана 2020-05-29 в 22 45 24](https://github.com/maddevsio/madflow/blob/master/pics/Screen%20Shot%202020-02-21%20at%2015.46.58.png)
 
 Additionally: If you want to edit a template, you need to use changes in the body task of project “Templates” then when creating a task from the template, the tasks will be created and modified.
 </details>
